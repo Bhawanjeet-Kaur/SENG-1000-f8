@@ -39,5 +39,27 @@ int main(int argc, char* argv[])
 	char fullPath[kMaximumLength];
 	snprintf(fullPath, sizeof(fullPath), "%s\%s", myArgs.directoryPath, myArgs.filename);
 
+	FILE* filePointer = fopen(fullPath, "w");
+	if (!filePointer)
+	{
+		printf("Error: Unable to create the file.\n");
+		return 1;
+	}
+
+	// Write theText to the file howMany times
+	for (int count = 0; count < myArgs.howMany; ++count)
+	{
+		//fprintf(filePointer, "%s\n", myArgs.theText);
+		if ((fprintf(filePointer, " % s\n", myArgs.theText)) < 0)
+		{
+			printf("Can't write to file.\n");
+			return -1;
+		}
+
+	}
+
+	// Close the file
+	fclose(filePointer);
+	printf("Text file created successfully at %s.\n", fullPath);
 	return 0;
 }
