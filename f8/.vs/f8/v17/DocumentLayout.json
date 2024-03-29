@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Src\\SENG-1000-f8\\f8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{33FD5CBB-F5C5-46BC-9F64-F04D096EB82F}|f8\\f8.vcxproj|C:\\Src\\SENG-1000-f8\\f8\\f8\\f8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{33FD5CBB-F5C5-46BC-9F64-F04D096EB82F}|f8\\f8.vcxproj|solutionrelative:f8\\f8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "f8.cpp",
+              "DocumentMoniker": "C:\\Src\\SENG-1000-f8\\f8\\f8\\f8.cpp",
+              "RelativeDocumentMoniker": "f8\\f8.cpp",
+              "ToolTip": "C:\\Src\\SENG-1000-f8\\f8\\f8\\f8.cpp",
+              "RelativeToolTip": "f8\\f8.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-29T22:43:32.201Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
